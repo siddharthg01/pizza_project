@@ -6,12 +6,12 @@ body{
     margin: 0;
     padding: 0;
 }
-@media (min-width:600px){
+@media (min-width:999px){
     .parent{
         display: flex;
         align-items: center;
         gap: 80px;
-        width: 100vw;
+        margin-bottom: 16px;
     }
     .img-cls{
         border-radius: 50%;
@@ -46,19 +46,138 @@ body{
         align-items: center;
         justify-content: space-between;
         height: 36px;
+        margin-top: 20px;
         margin-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
     }
+    .whatNew{
+        margin-bottom: 50px;
+    }
+    .whatsNewimage{
+        width: 315px;
+        height: 166px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .newcards{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        gap: 15px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        
+    }
+    .newcards::-webkit-scrollbar {
+        height: 8px;
+    }
+    .h4whatsnew{
+        margin-bottom: 16px;
+    }
+    .bluebox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        height: 56px;
+        margin-bottom: 16px;
+        background-color: #005491;
+    }
+    .txtbox{
+        width: 143px;
+        height: 32px;
+    }
+    .bluebox .txtbox p{
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+    }
+    .bluebox-content{
+        width: 163px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+    }
+    .detectloc{
+        background-color: #005491;
+        border: 1px solid white;
+        color: white;
+        height: 32px;
+        width: 108px;
+        border-radius: 5px;
+    }
+    .delivery,.dine-in,.takeaway{
+        height: 50px;
+    }
+    .btn-container{
+        display: flex;
+        width: 100%;
+        margin-right: 10px;
+
+    }
+    .btn-container button {
+        flex: 1; /* equal width for all buttons */
+        padding: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        background-color: #f5f5f5;
+    }
+    .btn-container button:active {
+        background-color: #007bff;
+        color: white;
+    }
+    .section{
+        height: 10px;
+        background-color: lightgray;
+    }
+    .bestseller{
+        object-fit: cover;
+        height: 40px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .bestsellerimg{
+        width: 170px;
+        height: 36px;
+        object-fit: cover;
+    }
+    .top10{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .top10 h2{
+        color: #2E2E2E
+    }
+    .inurloc{
+        background-color: rgb(255, 229, 180);
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .inurloc p{
+        color: #2E2E2E;
+    }
+    .bestsellercard{
+        display: flex;
+    }
 }
 
-@media (max-width:599px){
+@media (max-width:998px){
     .parent{
         display: flex;
         align-items: center;
         gap: 10px;
+        margin-bottom: 16px;
+        overflow-x: auto;
     }
-     .img-cls{
+    .parent::-webkit-scrollbar {
+        height: 8px;
+    }
+    .img-cls{
         border-radius: 50%;
         height: 90px;
         width: 90px;
@@ -94,4 +213,96 @@ body{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .whatNew{
+        margin-bottom: 50px;
+    }
+    .whatsNewimage{
+        width: 315px;
+        height: 166px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .newcards{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        gap: 15px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        
+    }
+    .newcards::-webkit-scrollbar {
+        height: 8px;
+    }
+    .h4whatsnew{
+        margin-bottom: 16px;
+    }
+    .bluebox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        height: 56px;
+        margin-bottom: 16px;
+        background-color: #005491;
+    }
+    .txtbox{
+        width: 143px;
+        height: 32px;
+    }
+    .bluebox .txtbox p{
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+    }
+    .bluebox-content{
+        width: 163px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+    }
+    .detectloc{
+        background-color: #005491;
+        border: 1px solid white;
+        color: white;
+        height: 32px;
+        width: 108px;
+        border-radius: 5px;
+    }
+    .delivery,.dine-in,.takeaway{
+        height: 50px;
+    }
+    .btn-container{
+        display: flex;
+        width: 100%;
+        margin-right: 10px;
+
+    }
+    .btn-container button {
+        flex: 1; /* equal width for all buttons */
+        padding: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        background-color: #f5f5f5;
+    }
+    .btn-container button:active {
+        background-color: #007bff;
+        color: white;
+    }
+    .section{
+        height: 10px;
+        background-color: lightgray;
+    }
+    .bestseller{
+        object-fit: cover;
+        height: 40px;
+        text-align: center;
+    }
+    .bestsellerimg{
+        width: 170px;
+        height: 36px;
+        object-fit: cover;
+    }
 }
+
