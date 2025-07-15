@@ -11,6 +11,7 @@ body{
         display: flex;
         align-items: center;
         gap: 80px;
+        width: 100vw;
     }
     .img-cls{
         border-radius: 50%;
@@ -21,12 +22,33 @@ body{
 
     .cravings{
         margin-top:20px;
-        width: 130px;
+        width: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .pizza-names{
+        font-size: 10px;
+        color: grey;
+    }
+    .loc{
+        font-weight: bolder;
+        color: #E31837;
+    }
+    .location{
+        display: flex;
+        align-items: center;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 36px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -51,41 +73,25 @@ body{
         align-items: center;
         text-align: center;
     }
+    .pizza-names{
+        font-size: 10px;
+        color: grey;
+    }
+    .loc{
+        font-weight: bolder;
+        color: #E31837;
+    }
+    .location{
+        display: flex;
+        align-items: center;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 36px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
-
-/* .line{
-    position: relative;
-    height: 1px;
-    background-color: black;
-    margin-top: 50px;
-}
-
-.h{
-
-    background-color: white;
-    position: absolute;
-    left: 40%;
-    bottom: -13px;
-} */
-
-.line {
-    position: relative;
-    height: 1px;
-    background-color: #666666;
-    margin-top: 50px;
-    width: 100%;
-}
-
-.h {
-    background-color: white;
-    position: absolute;
-    left: 50%; /* center horizontally */
-    transform: translateX(-50%); /* fine-tune centering */
-    bottom: -13px; /* overlap nicely with the line */
-    padding: 0 10px; /* optional: spacing around text */
-}
-
-.vegy{
-    color: #666666;
-}
-
