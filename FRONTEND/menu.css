@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f5ebeb;
+  color: #462323;
+}
+
+.filters {
+  display: flex;
+  gap: 1px;
+  padding: 1px;
+  border-bottom: 1px solid #eee;
+  background-color: #ffffff;
+}
+
+.filters:hover {
+  background-color: #eaeaea;
+}
+
+.filterveg {
+  border-color: green;
+  color: green;
+}
+
+.filternonveg {
+  border-color: brown;
+  color: brown;
+}
+
+.filtersort {
+  border-color: #555;
+  color: #555;
+}
